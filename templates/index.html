@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>index</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+</head>
+
+<body>
+    <form action="/user" method='post'>
+        Username <input type='text' name='username'>
+        Email <input type="text" name='Email'
+        <br><br>
+            Dojo Location:
+        <select action="/user" method='post' name='DojoLocation'>
+            <option value="value1">Sanjose</option>
+            <option value="value2">Emeryvill</option>
+        </select>
+        <br>
+        <br>
+            Favorate Language:
+        <select action="/user" method='post' name="Favoreitelanguage">
+            <option value="value1">Python</option>
+            <option value="value2">Javasript</option>
+        </select>
+        <br>
+        <br>
+            discription: 
+        <br>
+            <textarea action="/user" method='post' name="discription" value="Enter Description" rows="4" cols="50"></textarea>
+            <br>
+            <br>
+        <a href="/user"> <input type='submit' value='submit' method='post'> </a>
+      </form>
+        
+</body>
+</html>
